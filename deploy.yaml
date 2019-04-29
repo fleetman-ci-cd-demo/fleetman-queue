@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: queue
-        image: virtualpairprogrammers/fleetman-ci-cd-demo-fleetman-queue:${BUILD_ID}
+        image: ${REPOSITORY_TAG}
         imagePullPolicy: Never
 ---
 apiVersion: v1
